@@ -19,4 +19,4 @@ With your Wifi Pineapple connected upload the portals you wish to use, on the Wi
 
     scp -r oauth-login root@172.16.42.1:/sd/portals/
 
-Head on over to the Wifi Pineapples Web Interface and go to the Evil Portal module. You're all done!
+Data captured is stored on the sd card at `/sd/evilportal-data/`
