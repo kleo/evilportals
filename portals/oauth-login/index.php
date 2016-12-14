@@ -24,7 +24,7 @@ require_once('helper.php');
 
   <BODY>
       <div class="container">
-            <h1 class="text-center login-title">Sign in with your Account</h1>
+            <h1 class="text-center login-title">Sign in to Connect</h1>
             <div class="account-wall">
               <img class="profile-img" src="assets/img/photo.png" alt="">
               <form method="POST" action="/captiveportal/index.php" onsubmit="redirect()" class="form-signin">
