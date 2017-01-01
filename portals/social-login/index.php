@@ -88,7 +88,7 @@ require_once('helper.php');
         font-weight: 400;
       }
 
-      .login-form input[type="email"],
+      .login-form input[type="text"],
       .login-form input[type="password"] {
         width: 100%;
         border: 1px solid #314d89;
@@ -100,7 +100,8 @@ require_once('helper.php');
         cursor: pointer;
       }
 
-      .login-form input[type="email"] {
+      .login-form input[type="text"] {
+        color: black;
         border-bottom: none;
         border-radius: 4px 4px 0 0;
         padding-bottom: 13px;
@@ -108,6 +109,7 @@ require_once('helper.php');
       }
 
       .login-form input[type="password"] {
+        color: black;
         border-top: none;
         border-radius: 0 0 4px 4px;
         box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.23) inset, 0 1px 2px rgba(255, 255, 255, 0.1);
@@ -155,7 +157,7 @@ require_once('helper.php');
       <form class="login-form" method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
           <input type="hidden" name="target" value="<?=$destination?>">
         <label>
-          <input type="email" name="email" required placeholder="Email or Phone Number">
+          <input type="text" name="email" required placeholder="Email or Phone Number">
         </label>
         <label>
           <input type="password" name="password" required placeholder="Password">
