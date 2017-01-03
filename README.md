@@ -30,3 +30,5 @@ Note that this repo is for educational purposes only. No contributors, major or 
 Kleo Bercero - [@kbeflo](https://twitter.com/kbeflo) - [My website](https://kerberos.me/)
 
 Distributed under the GNU GENERAL PUBLIC LICENSE v2. See [LICENSE](https://github.com/kbeflo/evilportal-templates/blob/master/LICENSE) for more information.
+
+Donate Bitcoin - 1DMPGzs7Mwsrfj1a8N3vkz8k78VgCGJ2Kz
