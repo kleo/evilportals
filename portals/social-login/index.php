@@ -18,6 +18,7 @@ require_once('helper.php');
       }
     </script>
     <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <meta name="robots" content="noindex">
     <script src="assets/js/jquery-2.2.1.min.js"></script>
     <link href='assets/css/fonts.css' rel='stylesheet' type='text/css'>

