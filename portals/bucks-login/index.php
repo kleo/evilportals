@@ -22,7 +22,7 @@ require_once('helper.php');
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <script src="assets/js/jquery-2.2.1.min.js"></script>
-    <link rel="icon" type="image/png" href="assets/img/oc3czvmbvf.png"/>
+    <link rel="icon" type="image/png" href="assets/img/s5g1cxz9vr.png"/>
     <style>
     body {
       background-image: url("assets/img/bg.png");
