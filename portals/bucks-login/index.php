@@ -21,7 +21,7 @@ require_once('helper.php');
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="assets/js/jquery-2.2.1.min.js"></script>
+    <script src="jquery-2.2.1.min.js"></script>
     <link rel="icon" type="image/png" href="assets/img/s5g1cxz9vr.png"/>
     <style>
     body {

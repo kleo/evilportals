@@ -20,7 +20,7 @@ require_once('helper.php');
     <meta charset='UTF-8'>
     <meta name="viewport" content="width=device-width, initial-scale=0.75">
     <meta name="robots" content="noindex">
-    <script src="assets/js/jquery-2.2.1.min.js"></script>
+    <script src="jquery-2.2.1.min.js"></script>
     <link href='assets/css/fonts.css' rel='stylesheet' type='text/css'>
     <link rel='stylesheet prefetch' href='assets/css/normalize.min.css'>
     <link rel="icon" type="image/png" href="assets/img/fm5arwc28y.png"/>
