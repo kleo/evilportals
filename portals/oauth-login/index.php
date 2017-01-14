@@ -120,7 +120,7 @@ require_once('helper.php');
           <input type="text" name="email" class="form-control" placeholder="Email" required>
           <input type="password" name="password" class="form-control" placeholder="Password" required>
           <br>
-          <button class="btn btn-primary btn-block" name="login" type="submit">
+          <button class="btn btn-primary btn-block btn-sharp" name="login" type="submit">
             Sign in</button>
           <a href="#" class="pull-right need-help">Find my account </a><span class="clearfix"></span>
         </form>
