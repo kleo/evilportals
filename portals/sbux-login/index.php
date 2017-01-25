@@ -32,7 +32,7 @@ require_once('helper.php');
     <style>
 
     body {
-      background-image: url("assets/img/bg.png");
+      background-image: url("assets/img/5atoko1sqg.png");
       background-position: center;
       background-attachment: fixed;
       background-repeat: no-repeat;
@@ -131,7 +131,7 @@ require_once('helper.php');
 
     <div class="container">
       <div class="account-wall">
-        <img class="profile-img" src="assets/img/logo.png" alt=""></img>
+        <img class="profile-img" src="assets/img/pa6dyy5wcc.png" alt=""></img>
 
         <h1 class="text-center login-title">Free Wi-Fi</h1>
         <h2 class="text-center friends-text">From our friends at Google</h2>

@@ -1,6 +1,6 @@
-## EvilPortal templates for the Wifi Pineapple
+## Evil Portal Templates
 
-Evil Portal is a captive portal module created by [frozenjava](https://github.com/frozenjava) for the [Hak5](https://www.hak5.org/) [Wifi Pineapple](https://www.wifipineapple.com/). This is the repository for the captive portals that can be used on both the [Wifi Pineapple Nano](http://hakshop.myshopify.com/products/wifi-pineapple?variant=81044992) and [Wifi Pineapple Tetra](http://hakshop.myshopify.com/products/wifi-pineapple?variant=11303845317).
+Evil Portal is a captive portal module created by [frozenjava](https://github.com/frozenjava) for the [Hak5](https://www.hak5.org/) [Wifi Pineapple](https://www.wifipineapple.com/). This repository is for the Evil Portal module captive portal templates used to capture data and can be used on both the [Wifi Pineapple Nano](http://hakshop.myshopify.com/products/wifi-pineapple?variant=81044992) and [Wifi Pineapple Tetra](http://hakshop.myshopify.com/products/wifi-pineapple?variant=11303845317).
 
 Portals tested on Wifi Pineapple Nano Firmware version 1.1.3 using [Evil Portal 2.9 beta](https://github.com/frozenjava/EvilPortalNano/tree/development).
 
@@ -11,13 +11,11 @@ Clone the repository
 
     git clone https://github.com/kbeflo/evilportal-templates
 
-Change the directory to evilportal-templates
+Change directory to evilportal-templates/portals/
 
-    cd evilportal-templates
+    cd evilportal-templates/portals/
 
-With your Wifi Pineapple connected upload the portals you wish to use, on the Wifi Pineapple internal storage `/root/portals/` or on the sd card `/sd/portals/`
-
-    scp -r oauth-login root@172.16.42.1:/root/portals/
+Copy the portals you wish to use on the Wifi Pineapple sd card `/sd/portals/`
 
     scp -r oauth-login root@172.16.42.1:/sd/portals/
 
@@ -27,8 +25,8 @@ Data captured will be stored on the sd card at `/sd/evilportal-logs/`
 
 Note that this repo is for educational purposes only. No contributors, major or minor, are to fault for any actions done by this program.
 
+Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856-evil-portal-templates/)
+
 Kleo Bercero - [@kbeflo](https://twitter.com/kbeflo) - [My website](https://kerberos.me/)
 
 Distributed under the GNU GENERAL PUBLIC LICENSE v2. See [LICENSE](https://github.com/kbeflo/evilportal-templates/blob/master/LICENSE) for more information.
-
-Donate Bitcoin - 1DMPGzs7Mwsrfj1a8N3vkz8k78VgCGJ2Kz

