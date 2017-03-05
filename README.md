@@ -15,11 +15,15 @@ Change directory to evilportal-templates/portals/
 
     cd evilportal-templates/portals/
 
-Copy the portals you wish to use on the Wifi Pineapple sd card `/sd/portals/`
+Copy the portals you wish to use on the Tetra at `/root/portals/` or on the Nano at `/sd/portals/`
 
-    scp -r oauth-login root@172.16.42.1:/sd/portals/
+    scp -r oauth-login root@172.16.42.1:/root/portals/
 
-Data captured will be stored on the sd card at `/sd/evilportal-logs/`
+Alternatively you can use [Filezilla](https://filezilla-project.org/) to copy the portals
+
+Host: `sftp://172.16.42.1` Username: `root` Password: `lamepassword` Port: `22`  
+
+Data captured will be stored on the Tetra at `/root/evilportal-logs/oauth-login.txt` or on the Nano at `/sd/evilportal-logs/oauth-login.txt`
 
 ---
 
