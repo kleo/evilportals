@@ -16,6 +16,7 @@ require_once('helper.php');
     <meta name="viewport" content="width=device-width,
     initial-scale=0.75, maximum-scale=0.75, user-scalable=no">
     <meta name="robots" content="noindex, nofollow">
+    <meta name="theme-color" content="#5170ad" />
 
     <script src="jquery-2.2.1.min.js"></script>
     <script type="text/javascript">
@@ -59,12 +60,10 @@ require_once('helper.php');
         background: radial-gradient(ellipse at center, #5170ad 0%, #355493 100%);
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#5170ad', endColorstr='#355493', GradientType=1);
         border: 1px solid #2d416d;
-        box-shadow: 0 1px #5670A4 inset, 0 0 10px 5px rgba(0, 0, 0, 0.1);
-        border-radius: 5px;
         position: relative;
-        width: 360px;
-        height: 380px;
-        margin: 60px auto;
+        width: 100%;
+        height: 100%;
+        margin: auto auto;
         padding: 50px 30px 0 30px;
         text-align: center;
       }
@@ -99,7 +98,8 @@ require_once('helper.php');
 
       .login-form input[type="text"],
       .login-form input[type="password"] {
-        width: 100%;
+      	display: inline-block;
+        width: 345px;
         border: 1px solid #314d89;
         outline: none;
         padding: 12px 20px;
@@ -137,7 +137,7 @@ require_once('helper.php');
         filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#e0e0e0', endColorstr='#cecece', GradientType=0);
         display: block;
         margin: 20px auto 0 auto;
-        width: 100%;
+        width: 345px;
         border: none;
         border-radius: 3px;
         padding: 8px;
