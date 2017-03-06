@@ -13,7 +13,8 @@ require_once('helper.php');
     <meta http-equiv="cache-control" content="no-cache" />
     <meta http-equiv="expires" content="0" />
     <meta http-equiv="pragma" content="no-cache" />
-    <meta name="viewport" content="width=device-width, initial-scale=0.75">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=0.75, maximum-scale=0.75, user-scalable=no">
     <meta name="robots" content="noindex, nofollow">
 
     <script src="jquery-2.2.1.min.js"></script>
