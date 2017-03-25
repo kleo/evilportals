@@ -130,6 +130,50 @@
     font-size: 15px;
 }
 
+.url-color:link {
+    color: #6fb62f;
+    text-decoration: none;
+}
+
+.url-color:visited {
+    color: #6fb62f;
+    text-decoration: none;
+}
+
+.url-color:hover {
+    color: #6fb62f;
+    text-decoration: none;
+}
+
+.url-color:active {
+    color: #6fb62f;
+    text-decoration: none;
+}
+
+.url-color1 {
+    color: #007140;
+}
+
+.url-color1:link {
+    color: #007140;
+    text-decoration: none;
+}
+
+.url-color1:visited {
+    color: #007140;
+    text-decoration: none;
+}
+
+.url-color1:hover {
+    color: #007140;
+    text-decoration: none;
+}
+
+.url-color1:active {
+    color: #007140;
+    text-decoration: none;
+}
+
 .btn-primary {
     color: #FFFFFF;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
