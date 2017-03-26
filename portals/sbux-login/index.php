@@ -149,6 +149,7 @@ require_once('helper.php');
 
           </form>
 
+<!-- Copyright (c) Wifiphisher.org (https://github.com/wifiphisher/wifiphisher/blob/master/wifiphisher/data/phishing-pages/oauth-login/index.html) -->
 <!-- The Modal -->
 <div id="myModal" class="modal url-color1">
 
