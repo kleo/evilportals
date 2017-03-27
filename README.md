@@ -17,20 +17,25 @@ Change directory to evilportals/portals/
 
 Copy the portals you wish to use on the Tetra at `/root/portals/` or on the Nano at `/sd/portals/`
 
-    scp -r oauth-login root@172.16.42.1:/root/portals/
+    scp -r portal-login root@172.16.42.1:/root/portals/
 
 Alternatively you can use [Filezilla](https://filezilla-project.org/) to copy the portals
 
 Host: `sftp://172.16.42.1` Username: `root` Password: `lamepassword` Port: `22`  
 
-Captured data will be stored on the Tetra at `/root/evilportal-logs/oauth-login.txt` or on the Nano at `/sd/evilportal-logs/oauth-login.txt`
+Captured data will be stored on the Tetra at `/root/evilportal-logs/portal-login.txt` or on the Nano at `/sd/evilportal-logs/portal-login.txt`
+
+## License
+Evil Portals is distributed under the GNU GENERAL PUBLIC LICENSE v3. See [LICENSE](https://github.com/kbeflo/evilportals/blob/master/LICENSE) for more information.
+
+## Disclaimer
+* Authors do not own the logos under the `portals` directory. Copyright Disclaimer Under Section 107 of the Copyright Act 1976, allowance is made for "fair use" for purposes such as criticism, comment, news reporting, teaching, scholarship, and research.
+
+* Usage of Evil Portals for attacking infrastructures without prior mutual consistency can be considered as an illegal activity. It is the final user's responsibility to obey all applicable local, state and federal laws. Authors assume no liability and are not responsible for any misuse or damage caused by this program.
 
 ---
-
-Note that this repo is for educational purposes only. No contributors, major or minor, are to fault for any actions done by this program.
 
 Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856-evil-portals/)
 
 Kleo Bercero - [@kbeflo](https://twitter.com/kbeflo) - [My website](https://kerberos.me/)
 
-Distributed under the GNU GENERAL PUBLIC LICENSE v2. See [LICENSE](https://github.com/kbeflo/evilportals/blob/master/LICENSE) for more information.
