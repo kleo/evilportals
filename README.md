@@ -39,3 +39,4 @@ Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856
 
 Kleo Bercero - [@kbeflo](https://twitter.com/kbeflo) - [My website](https://kerberos.me/)
 
+Support me on - [Patreon](https://www.patreon.com/kbeflo)
