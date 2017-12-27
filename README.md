@@ -52,4 +52,4 @@ Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856
 
 Support me on - [Patreon](https://www.patreon.com/kbeflo)
 
-[Kleo Bercero](https://kerberos.me/)
+[Kleo Bercero](https://kbeflo.github.io/)
