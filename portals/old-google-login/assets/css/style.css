@@ -114,3 +114,15 @@
 .btn-sharp {
     border-radius: 3px;
 }
+
+.nofocus {
+  transition: none !important;
+  -moz-transition: none !important;
+  -webkit-transition: none !important;
+}
+
+.noshadow {
+  -webkit-box-shadow: none !important;
+  -moz-box-shadow: none !important;
+  box-shadow: none !important;
+}

