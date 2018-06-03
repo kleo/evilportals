@@ -50,6 +50,6 @@ Some of the portals here are also available for [Wifiphisher](https://github.com
 
 Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856-evil-portals/)
 
-Support me on - [Patreon](https://www.patreon.com/kbeflo)
+<a href='https://ko-fi.com/kbeflo' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi5.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
 
 [Kleo Bercero](https://kbeflo.github.io/)
