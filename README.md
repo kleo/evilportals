@@ -1,5 +1,8 @@
 ## Evil Portals
 
+![](https://img.shields.io/github/license/kbeflo/evilportals.svg?style=flat-square) 
+[![HitCount](http://hits.dwyl.io/kbeflo/evilportals.svg)](http://hits.dwyl.io/kbeflo/evilportals) [![](https://img.shields.io/discord/413223793016963073.svg?style=flat-square)](https://discord.gg/Ka557WS)
+
 [Evil Portals](https://github.com/kbeflo/evilportals) is a collection of portals that can be loaded into the Evil Portal module and can be used for phishing attacks against WiFi clients in order to obtain credentials or infect the victims with malware using the [Hak5](https://hak5.org/) [WiFi Pineapple](https://wifipineapple.com/) [Tetra](http://hakshop.myshopify.com/products/wifi-pineapple?variant=11303845317) and [Nano](http://hakshop.myshopify.com/products/wifi-pineapple?variant=81044992).
 
 This project requires you to manually install the development branch of the [Evil Portal](https://github.com/frozenjava/EvilPortalNano/tree/development) captive portal module created by [frozenjava](https://github.com/frozenjava).
@@ -50,6 +53,6 @@ Some of the portals here are also available for [Wifiphisher](https://github.com
 
 Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856-evil-portals/)
 
-<a href='https://ko-fi.com/kbeflo' target='_blank'><img height='36' style='border:0px;height:36px;' src='https://az743702.vo.msecnd.net/cdn/kofi5.png?v=0' border='0' alt='Buy Me a Coffee at ko-fi.com' /></a>
+[![Donate with PayPal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://paypal.me/kbeflo)
 
 [Kleo Bercero](https://kbeflo.github.io/)
