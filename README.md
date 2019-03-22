@@ -53,6 +53,6 @@ Some of the portals here are also available for [Wifiphisher](https://github.com
 
 Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856-evil-portals/)
 
-[![Donate with PayPal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://paypal.me/kbeflo)
+[Donate](https://paypal.me/kbeflo)
 
 [Kleo Bercero](https://kbeflo.github.io/)
