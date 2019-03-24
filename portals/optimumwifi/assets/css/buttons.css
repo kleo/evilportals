@@ -1,0 +1,15 @@
+@charset "UTF-8";
+.buttons { height: 28px; }
+.buttons > a, .buttons button { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; background: url("../images/service-header-links.png") 0 0 no-repeat; float: right; height: 28px; line-height: 28px; color: #FFF; font-weight: bold; text-align: center; border: 0; padding: 0; }
+.buttons form { float: right; }
+.buttons > a.quick-links { background-position: -101px 0px; }
+.buttons > a.quick-links:hover { background-position: -101px -28px; }
+.buttons > a.live-chat:hover, .buttons > button.live-chat:hover { background-position: 0px -28px; }
+.buttons { width: 205px; right: 200px; }
+.buttons > a.live-chat, .buttons button.live-chat { width: 102px; text-align: right; padding-right: 8px; }
+.buttons > a.quick-links, .buttons button.quick-links { display: none; width: 103px; }
+.buttons > a.quick-links .links-menu, .service-header .buttons button.quick-links .links-menu { display: none; list-style: none; text-align: left; margin: 0; width: 180px; border: 1px solid #CCC; color: #3e90d2; }
+.buttons > a.quick-links .links-menu > li, .service-header .buttons button.quick-links .links-menu > li { background: #FFF; margin: 0; padding: 2px 6px; height: 20px; line-height: 20px; font-size: 14px; font-weight: bold; }
+.buttons > a.quick-links .links-menu > li.alt, .service-header .buttons button.quick-links .links-menu > li.alt { background: #F0F3F5; }
+.buttons > a.quick-links:hover .links-menu, .service-header .buttons button.quick-links:hover .links-menu { display: block; }
+

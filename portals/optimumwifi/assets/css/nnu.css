@@ -1,0 +1,160 @@
+h2.banner { margin: .5em 0 0.7em; }
+
+.modal {
+    position: relative;
+    margin: 2em;
+    padding: 0;
+    background: #fff;
+}
+
+/* Modal styles */
+
+#modal_wait_container {
+    display: none;
+    color: #00459f;
+    background-color: #dddddd;
+}
+
+#modal_wait_container img {
+    margin: auto;
+}
+
+.modal_wait_outer {
+    border: 1px solid rgba(125, 193, 233);
+    border: 2px solid rgba(125, 193, 233, 0.5);
+    -webkit-background-clip: padding-box;             /* for Safari */
+    background-clip: padding-box;                     /* for IE9+, Firefox 4+, Opera, Chrome */
+}
+.modal_wait_inner {
+    padding: 12px 12px 20px;
+    border: 4px solid #00659c;
+}
+.modal_wait_content {
+    padding-top: 10px;
+    font-size: 16px;
+    white-space: nowrap;
+    line-height: 1.4;
+    font-weight: bold;
+}
+
+.answers div.p {
+    margin-top: 0.5em;
+}
+
+sup.reg {
+    vertical-align: top;
+}
+
+label.error-above {
+    margin-top: -1em;
+    margin-left: 0.1em;
+    margin-bottom: 0.2em;
+}
+label.error-below {
+    margin-bottom: -1em;
+    margin-left: 0.1em;
+    margin-top: 0.2em;
+}
+
+.access-box figure.smb-logo {
+    text-align: center;
+    width: 240px;
+}
+
+.right-rail figure.smb-logo {
+    text-align: center;
+}
+
+figure.smb-logo img,
+figure.smb-logo img {
+    max-height: 90px;
+    margin: auto;
+}
+
+#chatForm {
+    display: none;
+}
+
+figure a {
+    font-size: 0px;
+}
+
+.sweeps-modal,
+.modal-container {
+    display: none;
+}
+
+.icon-angle-none:before {
+    content: "";
+}
+
+/* Page fixes TWC should include with their next CSS */
+
+.cta.block { display: block;}
+
+.cta.block:hover {
+    background-color: #265A83;
+    background-image: -moz-linear-gradient(center top , #265A83, #1B405E);
+    border: medium none;
+    border-radius: 3px;
+    color: #FFFFFF; }
+
+.cta.block a { width: 100%;}
+
+.twc-header li .cta {
+    vertical-align: bottom;
+}
+
+.print {
+    color: #000000;
+}
+
+input:-moz-placeholder,
+input::-webkit-input-placeholder {
+    color: gray;
+}
+
+div.testmode {
+    position: fixed;
+    top: 0;
+    left: 48%;
+    padding: 4px 0;
+    margin-left: -225px;
+    opacity: 0.8;
+    width: 450px;
+    border-top: 0;
+    background-color: #BBBBBB;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 15px;
+    z-index: 1000;
+}
+
+div#language {
+    text-align:right;
+    float:right;
+    margin:5px 10px 0;
+}
+
+.right-rail .white-box {
+    border: none;
+}
+
+@media ( max-width :47em) {
+  .right-rail figure.smb-logo {
+      margin-top:5px;
+  }
+}
+
+/* Debug console */
+
+.debug-console {
+    margin: auto;
+    width: 75%;
+    padding: 20px;
+    background-color: #dedede;
+    display: none;
+}
