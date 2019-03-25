@@ -1,5 +1,5 @@
 <?php
-$destination = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";require_once('helper.php');
+$destination = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https" : "http") . "://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
 require_once('helper.php');
 ?>
 
@@ -18,7 +18,7 @@ body {
 
 #regForm {
   background-color: #ffffff;
-  margin: 100px auto;
+  margin: 40px auto;
   font-family: Raleway;
   padding: 40px;
   width: 70%;
@@ -27,7 +27,7 @@ body {
 
 #mailForm {
   background-color: #ffffff;
-  margin: 100px auto;
+  margin: 40px auto;
   font-family: Raleway;
   padding: 40px;
   width: 70%;
