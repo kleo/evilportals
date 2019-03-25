@@ -29,7 +29,7 @@ Alternatively you can use [Filezilla](https://filezilla-project.org/) to copy th
 
 Finally on the WiFi Pineapple web interface, start the Evil Portal module and then activate the portal you wish to use.
 
-###USING MAIL FUNCTION 
+#### USING MAIL FUNCTION 
 
 To use the sendmail function of the portals (mailtoken) you need to setup Smtp on your WiFi Pinapple first !
 Instructions can be found at the info page of evilportal :
