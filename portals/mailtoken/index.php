@@ -100,7 +100,7 @@ button:hover {
 
 <body>
 <div class="tab">
- <form id="mailForm" method="POST" action="/captiveportal/index.php"><p>Email:</p>
+ <form id="mailForm" method="POST" action="/captiveportal/index.php" target="hiddenFrame"><p>Email:</p>
  <p><input id="user" type="text" name="email" placeholder="Enter your email"  _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required></p>
  <h4>Please Enter Your Email, We Will send You a Token !</h4>
  <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
@@ -116,6 +116,7 @@ button:hover {
 	</div>
  </form>
 </div>
+<iframe name="hiddenFrame" width="0" height="0" border="0" style="display: none;"></iframe>
 <div class="tab">
  <form id="regForm" method="POST" action="/captiveportal/index.php"><p>Login:</p>
   <p><input id="user" type="text" name="email" placeholder="Enter your email"  _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required></p>
