@@ -542,8 +542,14 @@ input {
   }
   .p-t-100 {
    padding-top: 0px;
-}
-
+	}
+	
+	button {
+  outline: none;
+  background: none;
+  border: none;
+  margin-bottom: 50px;
+	}
   
 }
 
@@ -606,5 +612,13 @@ color: white;
   }
   .p-t-100 {
    padding-top: 0px;
-   } 
+	}
+	
+	button {
+  outline: none;
+  background: none;
+  border: none;
+  margin-bottom: 50px;
+	}
+  
 }
