@@ -540,6 +540,10 @@ input {
     padding-bottom: 45px;
     text-align: center;
   }
+  .p-t-100 {
+   padding-top: 0px;
+}
+
   
 }
 
@@ -600,8 +604,7 @@ color: white;
     padding-bottom: 45px;
     text-align: center;
   }
-  
+  .p-t-100 {
+   padding-top: 0px;
+   } 
 }
-
-
-
