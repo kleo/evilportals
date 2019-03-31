@@ -55,10 +55,10 @@ class MyPortal extends Portal
 
     }
 
-    public function showSuccess()
+    public function onSuccess()
     {
         // Calls default success message
-        parent::showSuccess();
+        parent::onSuccess();
     }
 
     public function showError()

