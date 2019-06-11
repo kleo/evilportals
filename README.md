@@ -1,7 +1,7 @@
 ## Evil Portals
 
 ![](https://img.shields.io/github/license/kbeflo/evilportals.svg?style=flat-square) 
-[![HitCount](http://hits.dwyl.io/kbeflo/evilportals.svg)](http://hits.dwyl.io/kbeflo/evilportals) [![](https://img.shields.io/discord/413223793016963073.svg?style=flat-square)](https://discord.gg/Ka557WS)
+[![](https://img.shields.io/discord/413223793016963073.svg?style=flat-square)](https://discord.gg/Ka557WS)
 
 [Evil Portals](https://github.com/kbeflo/evilportals) is a collection of portals that can be loaded into the Evil Portal module and can be used for phishing attacks against WiFi clients in order to obtain credentials or infect the victims with malware using the [Hak5](https://hak5.org/) [WiFi Pineapple](https://wifipineapple.com/) [Tetra](http://hakshop.myshopify.com/products/wifi-pineapple?variant=11303845317) and [Nano](http://hakshop.myshopify.com/products/wifi-pineapple?variant=81044992).
 
