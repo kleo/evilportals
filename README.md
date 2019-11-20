@@ -23,7 +23,7 @@ Copy the portals you wish to use on the Tetra at `/root/portals/` or on the Nano
 
     scp -r portal-login root@172.16.42.1:/root/portals/
 
-Alternatively you can use [Filezilla](https://filezilla-project.org/) to copy the portals
+Alternatively you can use [Filezilla](https://filezilla-project.org/) to copy the portalsgoogle.com/
 
 	Host: sftp://172.16.42.1 Username: root Password: lamepassword Port: 22 
 
@@ -52,7 +52,5 @@ Evil Portals is distributed under the GNU GENERAL PUBLIC LICENSE v3. See [LICENS
 Some of the portals here are also available for [Wifiphisher](https://github.com/wifiphisher/wifiphisher), available here [wifiphisher/extra-phishing-pages](https://github.com/wifiphisher/extra-phishing-pages)
 
 Discussion thread - [Hak5 Forums](https://forums.hak5.org/index.php?/topic/39856-evil-portals/)
-
-[Donate](https://paypal.me/kbeflo)
 
 [Kleo Bercero](https://kbeflo.github.io/)
