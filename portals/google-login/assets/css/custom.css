@@ -81,14 +81,16 @@ html, body {
     font-weight: 600;
     font-size: 14px;
     color: #1a73e8;
-    margin-top: 6px;
+    margin-top: 15px;
 	font-family: 'open-sans';
+	margin-left: 5px;
 }
 
 .p {
     font-size: 14px;
     color: #5f6368;
     margin-bottom: 0px;
+    margin-left: 5px;
 }
 
 .login-priv {
@@ -170,4 +172,8 @@ html, body {
 
 .password-input {
     margin-top: 20px;
+}
+
+.g-input:required {
+	box-shadow: none;
 }
