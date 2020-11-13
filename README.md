@@ -29,7 +29,7 @@ Alternatively you can use [Filezilla](https://filezilla-project.org/) to copy th
 
 Finally on the WiFi Pineapple web interface, start the Evil Portal module and then activate the portal you wish to use.
 
-After gathering credentials, captured data will be shown as a notification on the WiFi Pineapple web interface. Logs are found at Modules > Evil Portal > Logs > View and at portals/login/.logs.
+After gathering credentials, captured data will be shown as a notification on the WiFi Pineapple web interface. Logs are found at Modules > Evil Portal > Logs > View.
 
 ---
 
