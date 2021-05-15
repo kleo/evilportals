@@ -4,6 +4,8 @@
 
 This project requires you to install [Evil Portal](https://github.com/frozenjava/EvilPortalNano) captive portal module created by [frozenjava](https://github.com/frozenjava). To install on the Pineapple, go to Modules -> Manage Modules -> Get Modules from Hak5 Community Repositories -> Evil Portal 3.2.
 
+**Tested working on the WiFi Pineapple Nano MK VI only.**
+
 ---
 
 #### Usage
