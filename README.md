@@ -40,7 +40,7 @@ After gathering credentials, captured data will be shown as a notification on th
 
 #### Demo
 
-[![WiFi Pineapple - Evil Portals: Facebook and Yahoo login](https://img.youtube.com/vi/i_CjxTuUFPE/hqdefault.jpg)](https://www.youtube.com/watch?v=i_CjxTuUFPE)
+[WiFi Pineapple - Evil Portals: Facebook and Yahoo login](https://open.tube/videos/watch/f22335c9-ad90-40de-b62e-e2a8d89c8af6)
 
 ---
 
