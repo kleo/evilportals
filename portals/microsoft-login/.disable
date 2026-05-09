@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Commands in this file are ran when a portal is de-activated.
+# You can use any interpreter you want to, the default is bash.

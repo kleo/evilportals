@@ -1,0 +1,251 @@
+
+/* desktop adjustments */
+@media only screen and (min-width: 768px) {
+    .login-container {
+        width: 436px !important;
+        margin: auto !important;
+        margin-top: 181px !important;
+        height: 355px !important
+    }
+
+    .login-content {
+        padding-top: 30px !important;
+        padding-bottom: 40px !important;
+    }
+}
+
+.hv { 
+    cursor: pointer!important;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+html, body {
+    font-family: "Segoe UI","Helvetica Neue","Lucida Grande","Roboto","Ebrima","Nirmala UI","Gadugi","Segoe Xbox Symbol","Segoe UI Symbol","Meiryo UI","Khmer UI","Tunga","Lao UI","Raavi","Iskoola Pota","Latha","Leelawadee","Microsoft YaHei UI","Microsoft JhengHei UI","Malgun Gothic","Estrangelo Edessa","Microsoft Himalaya","Microsoft New Tai Lue","Microsoft PhagsPa","Microsoft Tai Le","Microsoft Yi Baiti","Mongolian Baiti","MV Boli","Myanmar Text","Cambria Math";
+}
+
+.login-container {
+    margin-top: 0px;
+    border: 1px solid rgb(217, 220, 222);
+	height: 80%;
+	position: relative;
+    background-color: #fff;
+}
+
+@media (max-width: 767px){
+  .login-container {
+    border: 1px solid #fff;
+  }
+}
+
+.g-h1 {
+    padding-top: 15px;
+}
+
+.g-h1, .g-h2 {
+    font-size: 24px;
+    margin-left: 23px;
+}
+
+.g-h2 {
+    font-size: 16px;
+}
+
+.g-input {
+    border: 1px solid rgb(147 147 147);
+    width: 100%;
+    font-weight: 400;
+    height: 52px !important;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+}
+
+.g-input:focus {
+    outline: none !important;
+    transition-timing-function: ease;
+}
+
+.g-input-invalid {
+    border: 1px solid red;
+}
+
+.g-input-invalid:focus {
+    border: 2px solid red;
+}
+
+.login-content {
+    padding-top: 24px;
+}
+
+.g-legend {
+    font-size: 14px;
+    color: #0067b8;
+    margin-top: 15px;
+	font-family: 'open-sans';
+}
+
+.g-legend:hover{ 
+    text-decoration: underline;
+}
+
+.p {
+    font-size: 14px;
+    color: #5f6368;
+    margin-bottom: 0px;
+    margin-left: 5px;
+}
+
+.login-priv {
+    margin-top: 32px;
+}
+
+.login-priv .g-legend {
+    margin-top: 0px !important;
+}
+
+.login-nav {
+    margin-top: 70px;
+    display: flex;
+}
+
+.login-nav2{ 
+    display: flex;
+}
+
+.linkbtn { 
+    position: relative!important;
+    max-width: 100%!important;
+    text-align: center!important;
+    white-space: nowrap!important;
+    overflow: hidden!important;
+    text-overflow: ellipsis!important;
+    touch-action: manipulation!important;
+    color: #fff!important;
+    border-style: solid!important;
+    border-width: 2px!important;
+    border-color: transparent;
+    min-height: 32px!important;
+    border: none!important;
+    background-color: #0067b8!important;
+    min-width: 108px!important;
+    line-height: normal!important;
+    margin-top: 0!important;
+    margin-bottom: 0!important;
+    display: block!important;
+    text-decoration: none!important;
+    width: 100%!important;
+    cursor: pointer!important;
+}
+
+.gbtn-primary {
+    color: #fff;
+    border-color: transparent;
+    background-color: #0067b8;
+    display: block;
+    width: 100%;
+    margin-left: 4px;
+}
+
+.gbtn-second {
+    display: inline-block;
+    min-width: 100px;
+    padding: 4px 12px 4px 12px;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    position: relative;
+    max-width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    vertical-align: middle;
+    text-overflow: ellipsis;
+    touch-action: manipulation;
+    color: #000;
+    border-style: solid;
+    border-width: 2px;
+    border-color: transparent;
+    min-height: 32px;
+    border: none;
+    background-color: #ccc;
+    background-color: rgba(0,0,0,0.2);
+    min-width: 108px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: block;
+    width: 100%;
+}
+
+.gbtn-second:hover { 
+    background-color: rgb(0 0 0 / 23%);
+    transition: 0.2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+}
+
+.gbtn-primary:hover {
+    background-color: #4285f4;
+    transition: 0.2s;
+    transition-delay: 0.1s;
+    transition-timing-function: ease;
+}
+
+.gbtn-label {
+    color: white;
+    font-weight: 400;
+	font-family: 'open-sans';
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#logo {
+    margin: 0 4px;
+    display: table;
+    width: 75px;
+    float: none;
+    position: relative;
+}
+
+.login-content {
+    padding: 25px;
+	padding-top: 20px;
+	height: 100%;
+}
+
+.progress-bar-container {
+    min-height: 4px;
+}
+
+#login-app {
+	height: 100%;
+}
+
+.invalid-icon {
+    margin-right: 8px;
+}
+
+.invalid-icon svg {
+    fill: red;
+}
+
+.invalid-email-text-span {
+    font-size: 12px;
+    color: red;
+}
+
+.password-input {
+    margin-top: 20px;
+}
+
+.g-input:required {
+	box-shadow: none;
+}
+
+.banner-logo {
+    max-height: 36px;
+}

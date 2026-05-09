@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Commands in this file are ran when a portal is activated and when Evil Portal startsup on boot.
+# You can use any interpreter you want to, the default is bash.
